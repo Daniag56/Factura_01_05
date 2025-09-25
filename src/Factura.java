@@ -1,7 +1,7 @@
 public class  Factura{
     public static void main(String[] args) throws Exception {
         
-
+        System.out.println();
         System.out.println("Rojo Polo Paella Inc.");
         System.out.println("Carretera muelle 38");
         System.out.println();
@@ -22,7 +22,9 @@ public class  Factura{
         System.out.printf("%-1d                             %-30s %.2f                       %.2f \n", 1, "Talla pequeña traje luces en rojo                     ",100.00,100.00);
         System.out.printf("%-1d                             %-30s               %.2f                        %.2f \n", 2, "Mui grande churralita                    ",25.00,50.00);
         System.out.printf("%-1d                             %-30s                   %.2f                        %.2f \n", 3, "Equipaje de futbol                    ",5.00,15.00);
-
+        System.out.println();
+        System.out.printf("                                                             %30s                       %.2f \n", "Subtotal",165.00);
+        System.out.printf("                                                             %30s                       %.2f \n", "IVA 21.0%",34.00);
 
     }
 }
