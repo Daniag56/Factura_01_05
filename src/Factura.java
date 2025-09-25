@@ -1,16 +1,17 @@
 public class  Factura{
     public static void main(String[] args) throws Exception {
-        
         System.out.println();
-        System.out.println("Rojo Polo Paella Inc.");
+        System.out.println(Utils.BLUE+"████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████"+Utils.RESET);
+        System.out.println();
+        System.out.println(Utils.TEXTNEGRITA+"Rojo Polo Paella Inc."+Utils.RESETASCII);
         System.out.println("Carretera muelle 38");
         System.out.println();
         System.out.println();
         System.out.println();
-        System.out.printf("%-30s%-30s%-30s%30s \n", "FACTURAR A", "ENVIAR A","Nº DE FACTURA","ES-001");
-        System.out.printf("%-30s%-30s%-30s%30s \n", "Leda VillaReal", "Leda VillaReal","FECHA","29.01.2019");
-        System.out.printf("%-30s%-30s%-30s%30s \n", "Virgen Blanca 63", "Cercas Bajas 68","Nº DE PEDIDO","1730/2019");
-        System.out.printf("%-30s%-30s%-30s%30s \n", "Virgen Blanca 63", "Cercas Bajas 68","FECHA","1730/2019");
+        System.out.printf(Utils.TEXTNEGRITA+"%-30s%-30s%-30s    %30s \n", "FACTURAR A", "ENVIAR A","Nº DE FACTURA","ES-001"+Utils.RESETASCII);
+        System.out.printf("%-30s%-30s%-30s        %30s \n", "Leda VillaReal", "Leda VillaReal",Utils.TEXTNEGRITA+"FECHA"+Utils.RESETASCII,"29.01.2019");
+        System.out.printf("%-30s%-30s%-30s%30s \n", "Virgen Blanca 63", "Cercas Bajas 68",Utils.TEXTNEGRITA+"Nº DE PEDIDO"+Utils.RESETASCII,"1730/2019");
+        System.out.printf("%-30s%-30s%-30s%30s \n", "Virgen Blanca 63", "Cercas Bajas 68",Utils.TEXTNEGRITA+"FECHA"+Utils.RESETASCII,"1730/2019");
         System.out.printf("%-30s%-30s%-30s%30s\n","08759 Burgos,Burgos","47300 Cadiz,Cadiz", "VENCIMIENTO ", "29-01-2019");
 
         System.out.println("─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────");
